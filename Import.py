@@ -1,5 +1,4 @@
 import praw
-from datetime import datetime, timedelta
 import csv
 from collections import Counter
 import re
@@ -51,4 +50,4 @@ def search_reddit_posts(keyword, limit=10, sort_by="new"):
 
 # Exemple d'utilisation
 search_keyword = "Python"
-search_reddit_posts(search_keyword, limit=100000, sort_by="new")
+search_reddit_posts(search_keyword, limit=1000000, sort_by="new")
